@@ -1,0 +1,75 @@
+/* * {
+  /* border: 1px solid red; 
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main_nav {
+  
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+.nav {
+  /* position: fixed; */
+  box-shadow: 0px 2.9px 7.5px black;
+  border-radius: 9px;
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav > ol {
+  width: 40%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.group_png {
+  max-width: 500px;
+}
+.maincon {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.group_png {
+  max-width: 70%;
+  max-height: 40vh;
+  align-self: center;
+}
+
+.compo-flow {
+  display: flex;
+  grid-gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.changable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .8px;
+  border-radius: 20px;
+  box-shadow: 0px 2.9px 7.5px black;
+}
+
+.comp {
+  display: grid;
+}
+.star_h {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.star_lg {
+  height: 16px;
+}
