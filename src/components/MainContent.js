@@ -1,5 +1,6 @@
 import React from 'react'
-import group from "../images/Group 77.png"
+import group from "./Group 77.png"
+import "../detail.css"
 export default function MainContent () {
   return (
     <div className='maincon'>

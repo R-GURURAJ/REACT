@@ -1,27 +1,35 @@
+import NavBar from "./components/NavBar";
+import "./index.css";
+import MainContent from "./components/MainContent";
+import Changable from "./components/Changable";
+// import im from "./images/athletic.png";
+import data from "./data";
 
-import NavBar from "./components/NavBar"
-import "./index.css"
-import MainContent from "./components/MainContent"
-import Changable from "./components/Changable"
-
-function App () {
+function App() {
+  const datas = data.map((item) => {
+    return (
+      <div>
+        <div className="compo-flow">
+          <Changable
+            img={item.coverImg}
+            // img={im}
+            rating={item.stats.rating}
+            reviewCount={item.stats.reviewCount}
+            location={item.location}
+            title={item.title}
+            price={item.price}
+          />
+        </div>
+      </div>
+    );
+  });
   return (
     <div>
       <NavBar />
       <MainContent />
-      <div className="compo-flow">
-          <Changable />
-          <Changable />
-          <Changable />
-          <Changable />
-          <Changable />
-          <Changable />
-          <Changable />
-      </div>
-      
-      
+      <div className="datass">{datas}</div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

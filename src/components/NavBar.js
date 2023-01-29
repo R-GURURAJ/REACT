@@ -1,4 +1,5 @@
-import youtube from "../images/youtube-logo-red-hd-13.png";
+import youtube from "./youtube-logo-red-hd-13.png";
+import "../nav.css"
 
 function Navbar(){
     return(

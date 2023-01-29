@@ -1,22 +1,24 @@
-import athletic from "../images/athletic.png"
-import Star from "../images/Star 1.png"
+export default function Changable(props) {
+  // alert(props.rating)
+  return (
+    <div className="comp_det">
+      <img src={props.img} alt={props.img} />
 
-export default function Changable(){
+      <div className="star_h">
+        <span>{props.rating}</span>
+        <span className="gray">({props.reviewCount}) • </span>
+        <span className="gray">{props.location}</span>
+      </div>
 
-    return(
+      <div>
+        {props.title && <p>{props.title}</p>}
+        <span className="bold">From ${props.price} / person</span>
+      </div>
+    </div>
+  );
+}
 
-    <div className="changable">
-            <div className="comp">
-                <img src={athletic} alt ="athel" />
-                <div className="star_h">
-                <img src={Star} alt ="star" className="star_lg"/>
-                <span>4</span>
-                <span>(6) *</span>
-                <span>USA</span>
-                </div>
-                <p>this is an topic of life</p>
-                <p>price $68 / person</p>
-            </div>
-        </div>
-    )
+{
+  /* {props.name && <span>{props.name}</span>} */
+  /* <span style={{display: props.name ? "block" : "none"}}>{props.name}</span> */
 }

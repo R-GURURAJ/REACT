@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/REACT/static/css/main.401587f7.css",
-    "main.js": "/REACT/static/js/main.334447dd.js",
+    "main.css": "/REACT/static/css/main.a26b19ce.css",
+    "main.js": "/REACT/static/js/main.841bedd0.js",
     "static/media/Group 77.png": "/REACT/static/media/Group 77.465e6f4c3b73a3dc42c6.png",
     "static/media/athletic.png": "/REACT/static/media/athletic.36b86cd4c6a935ea8fba.png",
+    "static/media/wedding-photography 1.png": "/REACT/static/media/wedding-photography 1.902453a60a4e59281c53.png",
+    "static/media/mountain-bike 1.png": "/REACT/static/media/mountain-bike 1.b06065bdd3fb762fa727.png",
     "index.html": "/REACT/index.html",
-    "main.401587f7.css.map": "/REACT/static/css/main.401587f7.css.map",
-    "main.334447dd.js.map": "/REACT/static/js/main.334447dd.js.map"
+    "main.a26b19ce.css.map": "/REACT/static/css/main.a26b19ce.css.map",
+    "main.841bedd0.js.map": "/REACT/static/js/main.841bedd0.js.map"
   },
   "entrypoints": [
-    "static/css/main.401587f7.css",
-    "static/js/main.334447dd.js"
+    "static/css/main.a26b19ce.css",
+    "static/js/main.841bedd0.js"
   ]
 }
